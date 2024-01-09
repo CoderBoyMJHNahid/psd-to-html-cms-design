@@ -1,0 +1,103 @@
+.product_search_bar i {
+    z-index: 100;
+    top: 35%;
+    left: 14px;
+  }
+  .header_icon {
+    text-align: end;
+  }
+  .header_icon button {
+    background: transparent;
+    border: none;
+  }
+  .header_icon i {
+    color: white;
+    background: #676dfe;
+    padding: 10px;
+    font-size: 21px;
+  }
+  .customer_inform_wrapper {
+    background: white;
+    padding: 20px;
+    margin-top: 10px;
+  }
+  .product_cart_table_wrapper table p {
+    margin: 0;
+  }
+  
+  .product_cat span {
+    color: #74badb;
+    padding: 5px 12px;
+    background: #d6ecf7;
+    font-size: 10px;
+    margin-right: 10px;
+  }
+  .product_name p {
+    color: black;
+  }
+  .qty_wrapper button {
+    background: #e8e5ff;
+    color: black;
+  }
+  .check_box_wrapper {
+    border: 1px solid #c3c3c3;
+    margin-bottom: 10px;
+    padding: 5px 20px;
+    border-radius: 5px;
+  }
+  
+  .check_box_wrapper p {
+    margin: 0;
+  }
+  .list_Wrapper ul li{
+    background: #eff3f6;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .list_Wrapper ul li.active {
+    background: #676dfe;
+  }
+  .list_Wrapper ul li.active a{
+    color: white !important;
+  }
+  .list_Wrapper ul li a{
+    color: black !important;
+  }
+  .list_Wrapper ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  .list_Wrapper ul li:last-child{
+      margin-right: 0px;
+  }
+  .product_img img {
+      width: 130px;
+  }
+  .product_price_wrapper span:first-child {
+      padding: 2px 4px;
+      background: #676dfe;
+      color: white;
+      font-size: 12px;
+  }
+  .product_price_wrapper span:last-child {
+      padding: 2px 4px;
+      background: #0d99ff;
+      color: white;
+      font-size: 12px;
+  }
+  .product_price_wrapper{
+      margin-bottom: 10px;
+  }
+  .product_item_wrapper {
+      border: 1px solid #676dfe;
+      border-radius: 10px;
+      overflow: hidden;
+      margin-bottom: 20px;
+      cursor: pointer;
+  }
+  .product_cart_table_wrapper.mt-4 table tr td:nth-child(2){
+    width: 130px;
+  }
